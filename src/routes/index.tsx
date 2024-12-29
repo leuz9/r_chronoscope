@@ -4,6 +4,7 @@ import Dashboard from '../components/Dashboard';
 import Login from '../components/auth/Login';
 import Register from '../components/auth/Register';
 import Profile from '../components/Profile';
+import ActivitiesList from '../components/activities/ActivitiesList';
 import ActivityForm from '../components/activities/ActivityForm';
 import AdminDashboard from '../components/admin/AdminDashboard';
 import HealthAdvice from '../components/health/HealthAdvice';
@@ -45,7 +46,7 @@ export const routes = [
     element: (
       <PrivateRoute>
         <Layout>
-          <Activities />
+          <ActivitiesList />
         </Layout>
       </PrivateRoute>
     )
